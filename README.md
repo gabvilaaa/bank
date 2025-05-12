@@ -1,18 +1,16 @@
-## Getting Started
+## Algoritmo do Banqueiro em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto implementa o Algoritmo do Banqueiro para gerenciamento de alocação de recursos em um sistema com múltiplos clientes (threads). O algoritmo garante que o sistema nunca entre em um estado inseguro.
 
-## Folder Structure
+## Arquivos
 
-The workspace contains two folders by default, where:
+ - `BankerAlgorithm.java`: Código-fonte principal com toda a lógica de alocação, liberação de recursos e simulação de clientes concorrentes.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Pré-requisitos
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Java JDK instalado (versão 8 ou superior).
+- Um terminal (Linux, macOS) ou Prompt de Comando/PowerShell (Windows).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Compilação
+Abra o terminal ou prompt de comando na pasta onde está o arquivo `BankerAlgorithm.java` e execute:
+`javac BankerAlgorithm.java`
